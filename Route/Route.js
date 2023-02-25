@@ -12,27 +12,27 @@ import {hmpr,toppr2,toppr1,toppr3} from "../controler/homeprod.js";
 import {appliancesproduct} from "../controler/Appliancesproduct.js"
 import {beautypro} from "../controler/beautypro.js"
 import {grocery} from "../controler/grocery.js"
-const route = express.Router();
-route.get("/",(req,res)=>
+const Route = express.Router();
+Route.get("/",(req,res)=>
 {
   res.send("hiii")
 })
-route.get("/firstProduct", con);
-route.get("/secondProduct", con1);
-route.get("/thirdProduct", Sdata1);
-route.get("/fourthProduct", mobpro);
-route.get("/fashionimage1", fashionimage1);
-route.get("/Electronics", Electronics);
-route.get("/Electronicspr2", Electronicspr2);
-route.get("/Electronicpr3", Electronicpr3);
-route.get("/Electronicpr4", Electronicpr4);
-route.get("/Electronicspr5", Electronicspr5);// ya furnature ka api ha
-route.get("/toppr1", toppr1);
-route.get("/toppr2", toppr2);
-route.get("/toppr3", toppr3);
-route.get("/hmpr", hmpr);
-route.get("/appliancesproduct",appliancesproduct);
-route.get("/beautypro",beautypro)
-route.get("/grocery",grocery)
+Route.get("/firstProduct", con);
+Route.get("/secondProduct", con1);
+Route.get("/thirdProduct", Sdata1);
+Route.get("/fourthProduct", mobpro);
+Route.get("/fashionimage1", fashionimage1);
+Route.get("/Electronics", Electronics);
+Route.get("/Electronicspr2", Electronicspr2);
+Route.get("/Electronicpr3", Electronicpr3);
+Route.get("/Electronicpr4", Electronicpr4);
+Route.get("/Electronicspr5", Electronicspr5);// ya furnature ka api ha
+Route.get("/toppr1", toppr1);
+Route.get("/toppr2", toppr2);
+Route.get("/toppr3", toppr3);
+Route.get("/hmpr", hmpr);
+Route.get("/appliancesproduct",appliancesproduct);
+Route.get("/beautypro",beautypro)
+Route.get("/grocery",grocery)
 
-export default route; 
+export default Route; 
